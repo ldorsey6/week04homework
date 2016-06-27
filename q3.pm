@@ -3,15 +3,14 @@ package randomDNAgeneration;
 #Place the function from last week's "two argument" random DNA generation question into a module. The module should export the function.
 
 =pod
-randomDNAgeneration contains the function random:
-random(OUTFILE, length, random).
-The first two arguments are necessary and give the program
-the outfile to write to and the length of the sequence to be 
-returned. The third argument is optional. If provided as "yes",
-the function will produce a sequence of random length between
-1 and the first argument. 
+
+=head1 randomDNAgeneration 
+
+randomDNAgeneration contains the function random(OUTFILE, length, random). The first two arguments are necessary and give the program the outfile to write to and the length of the sequence to be returned. The third argument is optional. If provided as "yes", the function will produce a sequence of random length between 1 and the first argument. 
 
 =cut
+
+
 
 use strict;
 use warnings;
